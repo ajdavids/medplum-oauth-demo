@@ -17,16 +17,19 @@ Setup your account:
 - Create a `ClientApplication`
 - Set the "Redirect URI" to "http://localhost:8000"
 
-Now you can run this demo using your HTTP server of choice. For example, using Python's built-in server:
+Setup the OAuth client application:
 
-```bash
-python -m http.server 8000
-```
+- Update the `clientId` in [index.html](https://github.com/medplum/medplum-oauth-demo/blob/main/index.html#L24) to the clientId from your new `ClientApplication`
+- Now you can run this demo using your HTTP server of choice. For example, using Python's built-in server:
 
-Or using npm `http-server`:
+    ```bash
+    python -m http.server 8000
+    ```
 
-```bash
-npx http-server ./ -p 8000 -c-1
-```
+    Or using npm `http-server`:
+
+    ```bash
+    npx http-server ./ -p 8000 -c-1
+    ```
 
 Open your web browser to <http://localhost:8000/>
