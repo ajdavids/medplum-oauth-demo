@@ -15,7 +15,7 @@ Setup your account:
 
 - [Register for a Medplum account](https://medplum.com/docs/tutorials/app/register)
 - Create a `ClientApplication`
-- Set the "Redirect URI" to "http://localhost:8000/"
+- Set the "Redirect URI" to "http://localhost:8000"
 
 Now you can run this demo using your HTTP server of choice. For example, using Python's built-in server:
 
